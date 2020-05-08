@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synthetic Technocracy?</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Synthetic Technocracy Survey Form</h1>
+        <p id="description">Should aritificial intellegence run our government</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <div>
+                <label id="name-label" for="name">Name</label>
+                <input id="name" type="text" placeholder="enter your name" required>
+            </div>
+            <div>
+                <label id="email-label" for="email">Email</label>
+                <input id="email" type="email" placeholder="enter your email" required>
+            </div>
+            <div>
+                <label id="number-label" for="age">Age (optional)</label>
+                <input id="number" type="number" min="13" max="150" placeholder="Age">
+            </div>
+            <div>
+                <p >What is your education level?</p>
+                <select name="education" id="dropdown" required>
+                    <option disabled selected>Select highest level of education...</option>
+                    <option value="idiot">I'm an idiot...</option>
+                    <option value="high school">high school</option>
+                    <option value="some college">college</option>
+                    <option value="asociate">associate degree or certificate</option>
+                    <option value="bachelor">bachelor's degree</option>
+                    <option value="master">master's degree or professional degree</option>
+                    <option value="phd">PhD or Doctorate</option>
+                </select>
+            </div>
+            <div>
+                <p>Should algorithms control our government?</p>
+                <label>
+                    <input 
+                        type="radio"
+                        name="algorithms"
+                        value="definitely"
+                        checked>Definitely!</label>
+                        <input 
+                        type="radio"
+                        name="algorithms"
+                        value="maybe"
+                        >Maybe</label>
+                        <input 
+                        type="radio"
+                        name="algorithms"
+                        value="meh"
+                        >Meh it's better than what we have</label>
+                </label>
+            </div>
+            <div>
+                <p>What features would you like to see (check all that apply)</p>
+                <label>
+                    <input 
+                    name="feature"
+                    value="mind-control"
+                    type="checkbox"/>mind control implants
+                </label>
+                <label>
+                    <input 
+                    name="feature"
+                    value="drones"
+                    type="checkbox"/>automated police taser drones
+                </label>
+                <label>
+                    <input 
+                    name="feature"
+                    value="career"
+                    type="checkbox"/>algorithmic career assignment
+                </label>
+                <label>
+                    <input 
+                    name="feature"
+                    value="brain"
+                    type="checkbox"/>brain uploads
+                </label>
+                <label>
+                    <input 
+                    name="feature"
+                    value="goo"
+                    type="checkbox"/>gray goo apocolypse
+                </label>
+            </div>
+            <div>
+                <p>Any comments or suggestions?</p>
+                <textarea name="comment" id="comments">Enter your comment here...</textarea>
+            </div>
+            <div>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+        <footer>
+            <p>Thank you for your participation! Your response will help us to 
+                improve the algorithm, as well as identify citizens who will 
+                need to be recycled before implementation.
+            </p> 
+
+        </footer>
+
+    </main>
+</body>
+</html>
