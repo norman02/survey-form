@@ -1,0 +1,59 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    line-height: 1.4;
+    margin: 0;
+    padding: 0 5rem;
+}
+
+header {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+h1,
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+#description {
+    font-style: italic;
+    font-size: 2.2rem;
+}
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  button,
+  select,
+  textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  form {
+      margin: 0 50rem;
+      padding: 5rem;
+      background-color: bisque;
+  }
+ 
+  footer {
+      padding: 2rem 10rem;
+  }
+
